@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+  <title>thank you!</title>
+  <style>
+    body {
+        background-color: #000;
+        background-size:100vw;
+        background-repeat:repeat-y;
+      background-image: url("https://media.tenor.com/TZaIBNauQfAAAAAC/stars-galaxy.gif");
+    }
+    .bg-div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-left: 10%;
+    }
+    .label-div {
+      color: antiquewhite;
+      font-size: large;
+    }
+    .typewriter h1 {
+      color: #fff;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: 0.15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: 0.15em; /* Adjust as needed */
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+    .typewriter2 h1 {
+      color: #fff;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: 0.15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: 0.15em; /* Adjust as needed */
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: orange;
+      }
+    }
+    .container {
+      width: 30%;
+    }
+    /*  */
+    @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+    html {
+      /* height: 100%; */
+      /* width: 100%; */
+      /* background: #111; */
+      color: #00cc44;
+      font-family: "Major Mono Display", monospace;
+    }
+
+    .wrapper {
+      margin-top: 5%;
+      width: 40%;
+      height: 100%;
+      flex-wrap: wrap;
+    }
+
+    .line__1,
+    .line__2 {
+      white-space: nowrap; /* keep text in one line */
+      overflow: hidden; /* hide text behind the cursor */
+      margin: 0.5rem auto;
+      font-family: "Major Mono Display", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .line__3 {
+      white-space: nowrap; /* keep text in one line */
+      overflow: hidden; /* hide text behind the cursor */
+      margin: 0.5rem auto;
+      font-family: "Major Mono Display", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .line__4 {
+      white-space: nowrap; /* keep text in one line */
+      overflow: hidden; /* hide text behind the cursor */
+      margin: 0.5rem auto;
+      font-family: "Major Mono Display", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .line__5{
+        white-space: nowrap; /* keep text in one line */
+      overflow: hidden; /* hide text behind the cursor */
+      margin: 0.5rem auto;
+      font-family: "Major Mono Display", monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .line__1 {
+      border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+      /* define animation types for text + cursor */
+      animation: animated-text__1 6s steps(30, end) 1s 1 normal both,
+        animated-cursor__1 900ms steps(30, end) 8;
+    }
+
+    .line__2 {
+      border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+      /* define animation types for text + cursor */
+      animation: animated-text__2 5s steps(30, end) 1s 1 normal both,
+        animated-cursor__2 900ms steps(30, end) infinite;
+      -webkit-animation-delay: 7s;
+      animation-delay: 7s;
+    }
+
+    .line__3 {
+      border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+      /* define animation types for text + cursor */
+      animation: animated-text__2 5s steps(30, end) 1s 1 normal both,
+        animated-cursor__2 900ms steps(30, end) infinite;
+      -webkit-animation-delay: 7s;
+      animation-delay: 14s;
+    }
+
+    .line__4 {
+      border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+      /* define animation types for text + cursor */
+      animation: animated-text__3 5s steps(30, end) 1s 1 normal both,
+        animated-cursor__2 900ms steps(30, end) infinite;
+      -webkit-animation-delay: 7s;
+      animation-delay: 20s;
+    }
+
+    .line__5 {
+      border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+      /* define animation types for text + cursor */
+      animation: animated-text__4 5s steps(30, end) 1s 1 normal both,
+        animated-cursor__2 900ms steps(30, end) infinite;
+      -webkit-animation-delay: 7s;
+      animation-delay: 28s;
+    }
+
+    @keyframes animated-cursor__1 {
+      from {
+        border-right-color: rgba(17, 17, 17, 0.9);
+      }
+      to {
+        border-right-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    @keyframes animated-cursor__2 {
+      from {
+        border-right-color: rgba(17, 17, 17, 0.9);
+      }
+      to {
+        border-right-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    @keyframes animated-text__1 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 45rem;
+      }
+    }
+
+    @keyframes animated-text__2 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 45rem;
+      }
+    }
+    @keyframes animated-text__3 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 50rem;
+      }
+    }
+    @keyframes animated-text__4 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 58rem;
+      }
+    }
+  </style>
+</head>
+<script></script>
+<body onload="myFunction()">
+  <div class="bg-div">
+    <div class="wrapper">
+      <p class="line__1">Hi Debanjali!</p>
+      <p class="line__2">Hope you are doing well</p>
+      <p class="line__3">I just wanted to Thank you!</p>
+      <p class="line__4">& wish you all the best!</p>
+      <div>
+        <p class="line__5">~ from unknown</p>
+      </div>
+    </div>
+  </div>
+</body>
